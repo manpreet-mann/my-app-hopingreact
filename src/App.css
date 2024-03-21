@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: 'Times New Roman', Times, serif;
@@ -6,7 +6,8 @@ body{
   background-color: white;
   margin-top: 78px;
 }
-.header{
+
+.header {
   background-color: rgba(28, 7, 68, 0.5);
   /* color: black; */
   display: flex;
@@ -18,51 +19,62 @@ body{
   z-index: 1;
 
 }
-.header ul{
+
+.header ul {
   list-style: none;
   display: flex;
 }
-.header ul li{
+
+.header ul li {
   padding: 0.5rem 1rem;
 }
-.header a{
+
+.header a {
   text-decoration: none;
   color: white;
   padding: 0.5rem 1rem;
 }
-.header a:hover{
+
+.header a:hover {
   cursor: pointer;
   background-color: lightslategray;
 }
-.header-right{
+
+.header-right {
   display: flex;
   list-style: none;
 }
-.poster{
+
+.poster {
   position: relative;
 }
-.poster img{
+
+.poster img {
   width: 100%;
   height: 700px;
   /* object-fit:contain; */
   /* margin: 20px 0; */
   /* justify-content: center; */
 }
-.poster .text{
+
+.poster .text {
   position: absolute;
   bottom: 30px;
   left: 10px;
   font-size: large;
 }
-.poster{
+
+.poster {
   position: relative;
 }
-.poster h1{
+
+.poster h1 {
   position: absolute;
   bottom: 10px;
   left: 3.5 rem;
 }
-.about{
+
+.about {
   display: flex;
   justify-content: center;
   margin: 0 80px;
@@ -71,71 +83,95 @@ body{
   padding: 20px;
 
 }
-.about img{
+
+.about img {
   width: 600px;
   height: 600px;
   /* box-shadow: 10px 10px 20px rgba(0,0,0,0.5); */
 }
-.about h1, h5{
+
+.about h1,
+h5 {
   text-align: center;
   font-family: "Playfair Display";
   letter-spacing: 5px;
 }
-.about h5{
+
+.about h5 {
   font-size: 19px;
 }
 
-.about .para{
+.about .para {
   margin: 0 100px 0 50px;
   line-height: 1.5;
   font-size: 18px
 }
-.about .para2{
+
+.about .para2 {
   margin: 30px 100px 0 50px;
   font-size: 18px;
   line-height: 1.5;
   color: grey;
 }
-.menu{
+
+.menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.content-menu{
+
+.content-menu {
   margin: 50px 100px 50px 100px;
 }
-.menu-image{
+
+.menu-image {
   width: 600px;
   height: 600px;
   margin: 50px 100px 50px 80px;
 }
-.menu-image img{
+
+.menu-image img {
   width: 600px;
   height: 600px;
 }
+
 .containerContact {
   margin: 50px 100px 50px 100px;
 }
+
 .containerContact input {
   width: 100%;
-  padding: 1.5 rem 0.5 rem;
+  /* padding: 1.5 rem 0.5 rem; */
   border-bottom: 1px solid #ccc;
   margin-bottom: 1rem;
   border-top: none;
   border-right: none;
+  border-left: none;
+  font-size: 20px;
+  padding: 18px;
 }
-.containerContact h3{
+
+.containerContact h3 {
   color: grey;
 }
-.containerContact button{
- padding: 1rem;
- background-color: rgba(28, 7, 68, 0.5);
+
+.containerContact button {
+  padding: 1rem;
+  background-color: rgba(28, 7, 68, 0.5);
 }
-.footer{
+
+.footer {
   width: 100%;
   height: 200px;
   text-align: center;
   background-color: rgba(28, 7, 68, 0.5);
 }
-.footer p{
+
+.footer p {
   padding: 40px;
+}
+
+.clear {
+  padding: 1rem;
+  background-color: rgba(28, 7, 68, 0.5);
+  margin-left: 30px;
 }
